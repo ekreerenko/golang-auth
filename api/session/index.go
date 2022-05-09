@@ -1,4 +1,4 @@
-// package sessionAuth
+package sessionAuth
 
 // import (
 // 	"fmt"
