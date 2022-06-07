@@ -2,6 +2,8 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
+
+	S "./session"
 )
 
 func main() {
@@ -13,7 +15,7 @@ func main() {
 
 	routes := router.Group("/api")
 	{
-		routes.POST("/login", login)
+		routes.POST("/login", S.login)
 	}
 
 	router.Run(":8080")

@@ -1,9 +1,8 @@
-package sessionAuth
+package session;
 
 import (
 	"fmt"
 	"net/http"
-
 	"github.com/gin-gonic/gin"
 )
 
