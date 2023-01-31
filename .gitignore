@@ -1,3 +1,5 @@
 
 .idea
 .vscode
+./frontend/node_modules
+./backend/nest/node_modules
