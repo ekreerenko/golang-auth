@@ -2,8 +2,7 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-
-	S "./session"
+	// S "./session"
 )
 
 func main() {
